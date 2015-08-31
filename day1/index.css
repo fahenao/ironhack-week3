@@ -1,0 +1,53 @@
+body {
+	margin: 0px;
+	font-family: helvetica;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+button {
+    border: 0;
+    background-color: #ddd;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.box	{
+	border: 2px solid #ddd;
+	padding: 15px 20px;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+nav{
+	display:flex;
+}
+nav a {
+	margin-right: 14px;
+}
+.results-wrap {
+	display: flex;
+
+}
+.results {
+	width: 50%; 
+}
+.main-result{
+	width: 50%;
+}
+.search-box input{
+    padding: 6px 10px;
+}
+.menu-links{
+	/* Asign remaining space to one element*/
+	flex-grow:1;
+}
+
+.item {
+	margin-bottom: 30px;
+}
+.item a{
+	font-size: 18px;
+}
+.item 

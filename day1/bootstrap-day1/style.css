@@ -1,0 +1,27 @@
+#page {
+	width: 1280px;
+	height: 2526px;
+	flex-direction: column;
+}
+#masthead{
+	height:90px;
+}
+div .row{
+	width:1200px;
+	height:90;
+}
+#slidebox {
+	height: 550px;
+}
+.fwidgets {
+	height:314px;
+}
+#content {
+	height: 1143px;
+}
+#bottom{
+	height: 351px;
+}
+footer{
+	height: 78px;
+}
